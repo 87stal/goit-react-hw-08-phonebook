@@ -1,0 +1,46 @@
+.formSubmit {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  border: 1px solid;
+  box-shadow: -4px 15px 36px -13px gray;
+  padding: 20px;
+}
+
+.formSubmitInput {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-left: 50px;
+  outline: none;
+}
+
+.formSubmitInput:focus,
+.formSubmitInputt:hover {
+  border: 2px solid #00FFFF;
+  
+}
+.formSubmitInput:focus::placeholder {
+  color: transparent;
+}
+
+.formSubmitButton {
+  width: 120px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: #e7e7e7;
+  color: black; /* Green */
+  border: none;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+
+.formSubmitButton:focus,
+.formSubmitButton:hover
+{
+  border: 2px solid #00FFFF;
+}

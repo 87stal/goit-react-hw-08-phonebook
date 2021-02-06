@@ -1,0 +1,7 @@
+.box {
+  margin-bottom: 30px;
+  display: flex;
+  padding: 10px;
+  background-color: aliceblue;
+  box-shadow: 0 6px 4px -4px #87b1b1;
+}

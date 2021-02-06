@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  margin-right: auto;
+}
+
+.list {
+  display: flex;
+}
+
+.item {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.activeLink {
+  color: #00ffff;
+}

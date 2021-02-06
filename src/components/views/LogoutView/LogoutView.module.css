@@ -1,0 +1,17 @@
+
+.formSubmitButton {
+  width: 120px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: #e7e7e7;
+  color: black; /* Green */
+  border: none;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  outline: none;
+}
+.formSubmitButton:hover {
+  border: 2px solid #00FFFF;
+}
